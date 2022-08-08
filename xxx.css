@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    overflow: hidden;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    overflow: hidden;
+}
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px  ;
+    overflow: hidden;
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+section{
+    padding: 100px 200px;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(project\ \(3\).png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+    overflow: hidden;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e6eff;
+    font-size: 3em;
+    font-weight: 600;
+    overflow: hidden;
+}
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+.main-btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 40px ;
+    transition: 1.8s ease;
+    overflow: hidden;
+}
+.main-btn:hover{
+    background-color: #eef0f7;
+    transform: scale(1.1);
+    font-weight: 100em;
+}
+.social-icons a{
+   min-height: 10px;
+   min-width: 10px;
+   color: rgb(230, 10, 10);
+    font-size: 1.1em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  
+}
+/* .social-icons a:hover{
+    transform: scale(-1.1);
+    color: #10c8d9;
+} */
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-size: 800;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.content{
+    width:300px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  
+}
+.card{
+    width: 1000px;
+    height: 270px;
+    display:inline-flex;
+    background-color: #fff;
+    width: 21.25em;
+    /* box-shadow: 0 5px 25px rgba(1 1 1 /15%); */
+    /* border-radius: 10px; */
+    padding: 25px;
+    margin: 15px;
+    display: inline-table;
+    transition: 0.7s ease;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+    overflow: hidden;
+}
+.info{
+    text-align: center;
+    width: 900px;
+    position: absolute;
+    left: 200px;
+    background-color: #eef0f7;
+    transition: 0.7s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.info:hover{
+    transform: scale(1.1);
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2;
+    font-weight: 700;
+    margin: 10px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.projects{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.content:hover{
+    transform: scale(1.1);
+}
+.projects .content{
+    margin-top: 30px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.project-card{
+    background-color: #fff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    overflow: hidden;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-img img{
+    width: 100%;
+    overflow: hidden;
+}
+.project-img img .project-img{
+    opacity: 0.9;
+    overflow: hidden;
+}
+.project-info{
+    padding: 1em;
+    overflow: hidden;
+}
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+    overflow: hidden;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    overflow: hidden;
+  
+}
+.projects .title{
+    text-align: center;
+    overflow: hidden;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+    overflow: hidden;
+}
+.more-details:hover{
+    color: #601cfc;
+    overflow: hidden;
+}
+span{
+    color: rgb(198, 82, 82);
+    overflow: hidden;
+}
+#services{
+    height: 500px;
+    overflow: hidden;
+}
+.contener{
+    background-color: rgb(203, 199, 204);
+    overflow: hidden;
+}
+.card-body{
+    
+    font-weight: 800;
+    overflow: hidden;
+  
+}
+.social-icons{
+    color: black;
+    overflow: hidden;
+}
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+        overflow: hidden;
+    }
+    .navigation a{
+        padding-left: 10px;
+        overflow: hidden;
+    }
+    .title{
+        font-size: 1.8em;
+        overflow: hidden;
+    }
+    section{
+        padding: 80px 20px;
+        overflow: hidden;
+    }
+    .min-content h2{
+        font-size: 1em;
+        overflow: hidden;
+    }
+    .min-content h3{
+        font-size: 1.6em;
+        overflow: hidden;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    .projects{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .info{
+        text-align: center;
+    width: 350px;
+    position: absolute;
+    left: 100px;
+    background-color: #eef0f7;
+    transition: 0.7s;
+    border-radius: 15px;
+    }
+    
+}
+#projects{
+    display: flex;
+ 
+}
+/* .con{
+    display: flex;
+    justify-content: space-between;
+} */
+/* .ico{
+    font-weight: 200;
+    font-size: 100;
+    display: inline-block;
+    font-style: ;
+} */
+.progress{
+    /* margin: 1px; */
+    padding: 3px;
+
+
+}
+.card{
+    margin: 53px;
+    height: 200px;
+}
+.ahmed{
+    height: 100px;
+}
+.con{
+   
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.as{
+    width: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
